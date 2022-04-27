@@ -30,7 +30,7 @@ pipeline {
     ansiColor('xterm')
   }
 
-  agent { label 'master' }
+//   agent { label 'master' }
 
   environment {
     // Set path to workspace bin dir

@@ -39,9 +39,9 @@ pipeline {
     KUBECONFIG = "${env.WORKSPACE}/.kube/config"
   }
 
-  tools {
-    terraform '1.1.3'
-  }
+//   tools {
+//     terraform '10'
+//   }
 
   stages {
 

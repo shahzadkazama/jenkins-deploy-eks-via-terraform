@@ -31,6 +31,7 @@ pipeline {
   }
 
 //   agent { label 'master' }
+  agent { any }
 
   environment {
     // Set path to workspace bin dir

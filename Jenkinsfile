@@ -41,7 +41,7 @@ pipeline {
   }
 
   tools {
-    terraform '1.0
+    terraform '1.0'
   }
 
   stages {
